@@ -1,0 +1,6 @@
+/* #region debug */
+.debug {
+    background-color: lightslategray;
+    border: 1px dashed red;
+}
+/* #endregion debug */
