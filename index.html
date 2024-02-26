@@ -16,14 +16,27 @@
 </head>
 <body>
     <header class="ms-bg-darkblue text-white py-3">
-        <section>
+        <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <div class="d-flex align-items-center justify-content-between">
-                    <h1>START BOOTSTRAP</h1>
-                    <div class=""><i class="fa-solid fa-bars"></i></div>
+                <a class="navbar-brand text-white fw-bold" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-s-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">CONTACT</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>
+          </nav>
     </header>
     <main>
         <section class="ms-bg-green text-white">
@@ -33,41 +46,39 @@
                 </div>
                 <h2>START BOOTSTRAP</h2>
                 <div class="d-flex justify-content-center align-items-center py-3">
-                    <div class=""></div> <!--BOOOOOH-->
+                    <div class="ms-line bg-white"></div> <!--BOOOOOH-->
                     <i class="fa-solid fa-star fa-2xl px-2"></i>
-                    <div class=""></div> <!--BOOOOOH-->                    
+                    <div class="ms-line bg-white"></div> <!--BOOOOOH-->                    
                 </div>
                 <div class="py-3">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
             </div>
         </section>
-        <section>
+        <section class="">
             <div class="container text-center py-5">
                 <h2>PORTFOLIO</h2>
                 <div class="d-flex justify-content-center align-items-center py-4 pb-5">
-                    <div class="d-flex justify-content-center align-items-center py-3">
-                        <div class=""></div> <!--BOOOOOH-->
-                        <i class="fa-solid fa-star fa-2xl px-2"></i>
-                        <div class=""></div> <!--BOOOOOH-->                    
-                    </div>
+                    <div class="ms-line"></div>
+                    <i class="fa-solid fa-star fa-2xl px-2"></i>                    
+                    <div class="ms-line"></div>  
                 </div>
                 <div class="row gy-4">
                     <div class="col-sm-12 col-md-6 col-lg-4">
-                        <img class="img-fluid" src="img/cabin.png">
+                        <img class="img-fluid rounded" src="img/cabin.png">
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4">
-                        <img class="img-fluid" src="img/cake.png">
+                        <img class="img-fluid rounded" src="img/cake.png">
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4">
-                        <img class="img-fluid" src="img/circus.png">
+                        <img class="img-fluid rounded" src="img/circus.png">
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4">
-                        <img class="img-fluid" src="img/game.png">
+                        <img class="img-fluid rounded" src="img/game.png">
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4">
-                        <img class="img-fluid" src="img/safe.png">
+                        <img class="img-fluid rounded" src="img/safe.png">
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4">
-                        <img class="img-fluid" src="img/submarine.png">
+                        <img class="img-fluid rounded" src="img/submarine.png">
                     </div>
                 </div>
             </div>
@@ -76,21 +87,49 @@
             <div class="container text-center">
                 <h2>ABOUT</h2>
                 <div class="d-flex justify-content-center align-items-center py-4 pb-5">
-                    <div class=""></div>
+                    <div class="ms-line bg-white"></div>
                     <i class="fa-solid fa-star fa-2xl px-2"></i>
-                    <div class=""></div>
+                    <div class="ms-line bg-white"></div>
                 </div>
                 <div class="row text-start px-5 gy-4 pb-5">
                     <div class="col-12 px-5 col-md-6 px-md-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus fugiat consequatur possimus quo, laudantium impedit voluptatem totam reprehenderit quisquam accusantium, similique ad, unde repellendus iusto deleniti nesciunt maxime nobis quis.</div>
                     <div class="col-12 px-5 col-md-6 px-md-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus fugiat consequatur possimus quo, laudantium impedit voluptatem totam reprehenderit quisquam accusantium, similique ad, unde repellendus iusto deleniti nesciunt maxime nobis quis.</div>
                 </div>
                 <div class="col text-center">
-                    <a href="#" class="btn btn-outline-light">
-                        <i class="fas fa-download"></i> Download
-                    </a>
+                    <a href="#" class="btn btn-outline-light"><i class="fas fa-download"></i>Download</a>
                 </div>
             </div>
         </section>
+        <section class="py-5">
+            <div class="container py-5">
+                <h2 class="text-center">CONTACT ME</h2>
+                <div class="d-flex justify-content-center align-items-center py-4 pb-5">
+                    <div class="ms-line"></div>
+                    <i class="fa-solid fa-star fa-2xl px-2"></i>
+                    <div class="ms-line"></div>
+                </div>
+                <form>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control border-0 border-bottom rounded-0" placeholder="Name" id="name">
+                        <label class="fs-5" for="name">Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control border-0 border-bottom rounded-0" placeholder="Email Address" id="email">
+                        <label class="fs-5" for="email">Email Address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control border-0 border-bottom rounded-0" placeholder="Phone Number" id="number">
+                        <label class="fs-5" for="number">Phone Number</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control border-0 border-bottom rounded-0" placeholder="Message" id="exampleFormControlTextarea1" style="height: 200px"></textarea>
+                        <label class="fs-5" for="exampleFormControlTextarea1">Message</label>
+                    </div>
+                    <button type="button" class="btn btn-success ms-btn-form">Send</button>
+                </form>                
+            </div>
+        </section>
+
     </main>
 
 <!-- bootstrap -->
